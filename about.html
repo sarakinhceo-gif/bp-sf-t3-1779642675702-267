@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="organic-stripe">
+    <meta name="bpaas-design-theme" content="kr-organic-stripe">
+    <meta name="description" content="마포구 스트릿 패션 브랜드의 백링크 자동화 프로그램에 대한 상세 정보와 데이터 기반 성과. Swiss Minimal 디자인으로 전문성을 전달합니다.">
+    <meta name="keywords" content="백링크 자동화 프로그램 정보, 마포 스트릿패션 SEO, 링크 빌딩 데이터, 스트릿 브랜드 마케팅 정보">
+    <link rel="canonical" href="https://sf-t3-1779642675702-267.vercel.app/info">
+    <meta property="og:title" content="백링크 자동화 프로그램 상세 정보 | 마포 스트릿 패션 전문 솔루션">
+    <meta property="og:description" content="데이터 기반 백링크 자동화의 모든 정보. 마포 스트릿 패션 브랜드를 위한 전문가 수준의 링크 빌딩 전략과 성과 분석.">
+    <title>정보 | 백링크 자동화 프로그램 - 마포 스트릿 패션</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f8f7f4;
+            color: #1a1a1a;
+            line-height: 1.7;
+            letter-spacing: -0.01em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #e8e5e0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 0;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #4a4a4a;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+            padding: 4px 0;
+            border-bottom: 1.5px solid transparent;
+        }
+
+        .nav-links a:hover {
+            color: #1a1a1a;
+            border-bottom-color: #1a1a1a;
+        }
+
+        .phone-link {
+            font-weight: 600;
+            color: #1a1a1a !important;
+            border-bottom: none !important;
+            padding: 8px 16px !important;
+            border: 1.5px solid #1a1a1a !important;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+
+        .phone-link:hover {
+            background-color: #1a1a1a;
+            color: #ffffff !important;
+            border-color: #1a1a1a;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 4px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background-color: #1a1a1a;
+            transition: all 0.3s ease;
+        }
+
+        .hero {
+            padding: 80px 0 60px;
+            border-bottom: 1px solid #e8e5e0;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 600;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            margin-bottom: 24px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #4a4a4a;
+            max-width: 480px;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background-color: #ffffff;
+                padding: 24px;
+                border-bottom: 1px solid #e8e5e0;
+                gap: 16px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+
+        /* 섹션 스타일 */
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: 48px;
+            border-bottom: 2px solid #1a1a1a;
+            padding-bottom: 16px;
+            display: inline-block;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .info-card {
+            background-color: #ffffff;
+            border: 1px solid #e8e5e0;
+            border-radius: 8px;
+            padding: 32px;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .info-card:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+        }
+
+        .info-card h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .info-card p {
+            color: #4a4a4a;
+            font-size: 0.95rem;
+        }
+
+        .data-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0eee9;
+        }
+
+        .data-row:last-child {
+            border-bottom: none;
+        }
+
+        .data-label {
+            font-weight: 500;
+            color: #4a4a4a;
+        }
+
+        .data-value {
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .faq-item {
+            padding: 20px 0;
+            border-bottom: 1px solid #e8e5e0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+
+        .faq-answer {
+            color: #4a4a4a;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .map-placeholder {
+            background-color: #e8e5e0;
+            height: 300px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #4a4a4a;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        footer {
+            padding: 40px 0;
+            border-top: 1px solid #e8e5e0;
+            text-align: center;
+            color: #4a4a4a;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">백링크 자동화 프로그램</a>
+            <div class="nav-links" id="navLinks">
+                <a href="/">홈</a>
+                <a href="/info">정보</a>
+                <a href="/service">서비스</a>
+                <a href="/contact">문의</a>
+                <a href="tel:0200000000" class="phone-link">02-000-0000</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div>
+                    <h1>백링크 자동화 프로그램<br>상세 정보</h1>
+                    <p>마포구 스트릿 패션 브랜드를 위해 설계된 데이터 기반 백링크 자동화 솔루션의 모든 것. Swiss Minimal 정밀함으로 검증된 전략과 지역 최적화 데이터를 제공합니다.</p>
+                </div>
+                <div>
+                    <div class="info-card" style="margin-top: 0;">
+                        <h3>핵심 데이터 포인트</h3>
+                        <div class="data-row">
+                            <span class="data-label">평균 백링크 증가율</span>
+                            <span class="data-value">+340%</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label">마포 지역 타겟팅 정확도</span>
+                            <span class="data-value">97.2%</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label">도메인 권위 상승</span>
+                            <span class="data-value">+28pt</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label">프로그램 가동 시간</span>
+                            <span class="data-value">99.9%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">프로그램 개요</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>자동화 엔진</h3>
+                    <p>고급 알고리즘을 기반으로 한 백링크 자동화 엔진은 마포구 스트릿 패션 브랜드의 온라인 가시성을 극대화합니다. 매일 500개 이상의 관련성 높은 백링크를 자동으로 발굴 및 구축하며, Swiss Minimal 설계로 리소스 사용을 최적화했습니다.</p>
+                </div>
+                <div class="info-card">
+                    <h3>지역 시그널 최적화</h3>
+                    <p>마포구 지역 데이터베이스와 실시간 연동하여 스트릿 패션 업종에 특화된 백링크 프로필을 생성합니다. 홍대, 합정, 상수동 등 핵심 상권의 로컬 SEO 신호를 자동으로 강화합니다.</p>
+                </div>
+                <div class="info-card">
+                    <h3>데이터 기반 전략</h3>
+                    <p>매주 업데이트되는 성과 분석 대시보드를 통해 백링크 품질, 도메인 권위, 트래픽 유입 경로를 실시간 모니터링합니다. 모든 결정은 정량적 데이터에 기반하며, 평균 94%의 정확도를 자랑합니다.</p>
+                </div>
+                <div class="info-card">
+                    <h3>보안 및 안정성</h3>
+                    <p>군사 등급의 암호화 프로토콜을 적용하여 모든 데이터 전송을 보호합니다. 연중무휴 99.9% 가동률을 유지하며, 정기적인 감사 로그를 통해 투명성을 보장합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background-color: #ffffff; border-top: 1px solid #e8e5e0; border-bottom: 1px solid #e8e5e0;">
+        <div class="container">
+            <h2 class="section-title">마포 지역 시그널</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>지역 타겟팅 파라미터</h3>
+                    <div class="data-row">
+                        <span class="data-label">주요 타겟 지역</span>
+                        <span class="data-value">마포구 전역</span>
+                    </div>
+                    <div class="data-row">
+                        <span class="data-label">핵심 상권</span>
+                        <span class="data-value">홍대, 합정, 상수</span>
+                    </div>
+                    <div class="data-row">
+                        <span class="data-label">지역 사이트 커버리지</span>
+                        <span class="data-value">1,200+</span>
+                    </div>
+                    <div class="data-row">
+                        <span class="data-label">로컬 키워드 매칭률</span>
+                        <span class="data-value">92%</span>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <h3>스트릿 패션 업종 데이터</h3>
+                    <div class="data-row">
+                        <span class="data-label">업종 관련 백링크</span>
+                        <span class="data-value">85%</span>
+                    </div>
+                    <div class="data-row">
+                        <span class="data-label">패션 블로그 연동</span>
+                        <span class="data-value">450+</span>
+                    </div>
+                    <div class="data-row">
+                        <span class="data-label">인플루언서 네트워크</span>
+                        <span class="data-value">200+</span>
+                    </div>
+                    <div class="data-row">
+                        <span class="data-label">월간 신규 링크</span>
+                        <span class="data-value">15,000+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="map-placeholder">
+                마포구 지역 백링크 분포 지도 (데이터 시각화)
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">자주 묻는 질문</h2>
+            <div class="faq-item">
+                <div class="faq-question">백링크 자동화 프로그램은 어떻게 작동하나요?</div>
+                <div class="faq-answer">당사 프로그램은 고급 자연어 처리와 머신러닝 알고리즘을 사용하여 마포구 스트릿 패션 관련 콘텐츠를 분석하고, 관련성 높은 웹사이트를 자동으로 발굴합니다. 이후 Swiss Minimal 원칙에 따라 품질이 검증된 사이트에만 백링크를 구축합니다.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">마포구 외 지역에서도 사용 가능한가요?</div>
+                <div class="faq-answer">프로그램은 마포구에 특화된 지역 시그널 최적화 기능을 제공하지만, 전국 단위의 백링크 구축도 지원합니다. 마포구 스트릿 패션 브랜드에 최적화된 데이터베이스를 기반으로 하므로, 마포 지역에서 가장 높은 효율을 보입니다.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">데이터 보안은 어떻게 보장되나요?</div>
+                <div class="faq-answer">모든 데이터는 AES-256 암호화로 전송 및 저장됩니다. 정기적인 보안 감사와 침투 테스트를 수행하며, GDPR 및 한국 개인정보보호법을 준수합니다. 고객 데이터는 절대 제3자와 공유되지 않습니다.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">결과를 확인하는 데 얼마나 걸리나요?</div>
+                <div class="faq-answer">초기 백링크 구축은 48시간 이내에 시작되며, 2주 내로 도메인 권위 상승을 확인할 수 있습니다. 완전한 최적화와 안정화에는 평균 4-6주가 소요되며, 이후 지속적인 모니터링과 조정이 이루어집니다.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">도입 전 테스트가 가능한가요?</div>
+                <div class="
+</body>
+</html>
